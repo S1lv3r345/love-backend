@@ -1,0 +1,17 @@
+{
+  "name": "love-backend",
+  "version": "1.0.0",
+  "description": "Backend for a love messages page.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
