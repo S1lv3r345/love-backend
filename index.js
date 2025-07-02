@@ -6,7 +6,6 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Conecta a la base de datos usando el URL de Railway
-console.log('DATABASE_URL actual:', process.env.DATABASE_URL);
 const pool = new Pool({
     connectionString: process.env.DATABASE_URL,
     ssl: {
